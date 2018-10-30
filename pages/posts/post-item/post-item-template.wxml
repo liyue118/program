@@ -1,0 +1,15 @@
+<template name="postItem">
+    <view class="post-container">
+        <image class="post-image" src="{{imgSrc}}"></image>
+        <view class='post-content'>
+          <text class="post-title">{{title}}</text>
+          <text class="post-body">{{content}}</text>
+          <view class="post-author-date">
+              <text class="post-address">{{address}}</text>
+              <text class="post-date">{{date}}</text>
+          </view>
+          
+        </view>
+        <view class='clearboth'></view>
+    </view>
+</template>

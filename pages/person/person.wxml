@@ -1,0 +1,66 @@
+
+<!--pages/mine/mine.wxml-->
+<view class="container">
+ 
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="../../images/avatar/3.png" background-size="cover"></image>
+    <text class="userinfo-nickname">李哈哈</text>
+    <text class="userinfo-nickname">APP公司</text>
+    <text class="userinfo-nickname">13121511868</text>
+    <text class="userinfo-nickname">123@163.com</text>
+    <image src="" class="account-bg">
+    </image>
+  </view>
+ 
+  <view class="separate"></view>
+<!--  
+  <view class="order" catchtap="toOrder">
+    <text class="myorder-text">我的订单</text>
+    <text class="myorderlook-text">查看全部订单</text>
+    <image class="next-image" src="../../images/person/next.png"></image>
+  </view> -->
+  <view class="line"></view>
+ 
+  <!-- <view class="navs">
+    <block wx:for-items="{{orderItems}}" wx:key="name">
+      <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+        <image src="{{item.imageurl}}" class="nav-image" />
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view> -->
+ 
+  <view class="separate"></view>
+  <view class="person-list">
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon4.png"></image>
+      <text class="item-text">即将开始</text>
+    </view>
+    <view class="person-line"></view>
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon5.png"></image>
+      <text class="item-text">待审核</text>
+    </view>
+    <view class="person-line"></view>
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon6.png"></image>
+      <text class="item-text">已结束</text>
+    </view>
+    <view class="person-line"></view>
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon7.png"></image>
+      <text class="item-text">付款管理</text>
+    </view>
+    <view class="person-line"></view>
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon8.png"></image>
+      <text class="item-text">发票管理</text>
+    </view>
+    <view class="person-line"></view>
+    <view class="list-item">
+      <image class="item-image" src="../../images/icon/icon9.png"></image>
+      <text class="item-text">注册信息</text>
+    </view>
+  </view>
+  <view class="separate"></view>
+</view>

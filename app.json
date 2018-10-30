@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/posts/post-register/post-register-template",
+    
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/posts/post-detail/post-detail",
+    "pages/person/person"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "活动",
+        "iconPath": "images/tab/icon4.png",
+        "selectedIconPath": "images/tab/icon4~.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "资讯",
+        "iconPath": "images/tab/icon5.png",
+        "selectedIconPath": "images/tab/icon5~.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "images/tab/icon9.png",
+        "selectedIconPath": "images/tab/icon9~.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<!--先静后动，先样式再数据-->
+<view class="container">
+  <text class="register-title">德勤2018中美贸易发展及出口管制专题研讨会（杭州场）</text>
+  <text class="register-list">①选票类型</text>
+</view>

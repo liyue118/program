@@ -1,0 +1,62 @@
+
+<!--先静后动，先样式再数据-->
+<view class="container">
+  <!-- <image class="head-image" src="{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}"></image> -->
+  <view class='detail'>
+    <image class='head-image' src="/images/1.jpg"></image>
+    <view class="detail-container">
+        <view class='detail-content'>
+          <text class="detail-title">日期</text>
+          <text class="detail-body">2018/10/30</text>
+          <text class="detail-body">10：00-11：00</text>
+        </view>
+        <image class="detail-image" src="/images/icon/icon10.png"></image>
+        <view class='clearboth'></view>
+    </view>
+    <view class="detail-container">
+        <view class='detail-content'>
+          <text class="detail-title">地点</text>
+          <text class="detail-body">德勤大楼7层</text>
+          <text class="detail-body">重庆市渝中区化龙桥</text>
+        </view>
+        <image class="detail-image" src="/images/icon/icon11.png"></image>
+        <view class='clearboth'></view>
+    </view>
+    <view class='clearboth'></view>
+    <view class='sponsor-container'>
+      <view class='sponsor-detail'>
+        <text class="detail-title">主办方</text>
+        <text class='sponsor-body'>主办方:Deloitte</text>
+        <text class='sponsor-body'>行业:消耗品</text>
+        <text class='sponsor-body'>电话:13121511868</text>
+        <text class='sponsor-body'>联系人:lacey</text>
+        <text class='sponsor-body'>邮箱:13121511868@163.com</text>
+      </view>
+    </view>
+  </view>
+  <view class='summary-container'>
+    <view class='summary-content'>
+       <text class="summary-title">活动详情</text>
+       <text class='summary-body'>
+        框架为开发者提供了一系列基础组件，开发者可以通过组合这些基础组件进行快速开发。详细介绍请参考组件文档。
+          什么是组件：
+          组件是视图层的基本组成单元。
+          组件自带一些功能与微信风格一致的样式。
+          一个组件通常包括 开始标签 和 结束标签，属性 用来修饰这个组件，内容 在两个标签之内。
+       </text>
+    </view>
+  </view>
+  <view class='ticket-container'>
+    <view class='ticket-content'>
+      <text class="ticket-title">票务信息</text>
+      <view class='ticket-detail'>
+        <text class='ticket-pay'>现场支付</text>
+        <text class='ticket-time'>上午场，不包含午餐（09：30-12：00）</text>
+        <view class='ticket-price'>
+          <text class='price-func'>现场票价</text>
+          <text class='price-money'>￥200</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
