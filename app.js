@@ -38,7 +38,7 @@ App({
     doubanBase: "http://t.yushu.im"
   },
   appData: {
-    userinfo: null,     // 在app.js中声明变量userinfo，保存用户信息
+    userinfo: lacey,     // 在app.js中声明变量userinfo，保存用户信息
   },
 }) 
 
